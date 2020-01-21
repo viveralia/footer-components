@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Búsqueda",
+    "links": [
+      {
+        "name": "Ciudad de México",
+        "path": "/cdmx"
+      },
+      {
+        "name": "Estado de México",
+        "path": "/estado"
+      },
+      {
+        "name": "Hidalgo",
+        "path": "/hidalgo"
+      }
+    ]
+  },
+  {
+    "title": "Recursos",
+    "links": [
+      {
+        "name": "Conócenos",
+        "path": "/conocenos"
+      },
+      {
+        "name": "Chamba",
+        "path": "/chamba"
+      },
+      {
+        "name": "Blog",
+        "path": "/blog"
+      }
+    ]
+  },
+  {
+    "title": "Contacto",
+    "links": [
+      {
+        "name": "(55) 4040-7300",
+        "path": "tel:+52140407300"
+      },
+      {
+        "name": "contacto@tucanton.com",
+        "path": "mailto:contacto@tucanton.com"
+      }
+    ]
+  }
+]
