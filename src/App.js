@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "@emotion/styled";
+import footerMenu from "./constants/footerMenu.json";
+import MenuFooter from "./components/MenuFooter.js";
 
-function App() {
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+`;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <footer>
+      <Grid>
+        {footerMenu.map(({ title, links }, i) => (
+          <MenuFooter key={i} title={title} arrLinks={links} />
+        ))}
+      </Grid>
+    </footer>
   );
-}
+};
 
 export default App;
